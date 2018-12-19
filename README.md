@@ -30,7 +30,7 @@ $ mkdir build && cd build && cmake .. && make
 
 @ Prof. Chen Please run the following Script file to take to make the whole process of running much easier.
 
-copy load.sh from main folder and all the images to the build/src directory. Then run the script inside the build/src folder
+copy load.sh from main folder, config.cfg file from src and all the images to the build/src directory. Then run the script inside the build/src folder
 
 ```
 $ ./load.sh
