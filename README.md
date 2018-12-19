@@ -22,19 +22,16 @@ On Ubuntu, install dependencies by: `sudo apt install build-essential sed cmake 
 ```
 $ mkdir build && cd build && cmake .. && make
 ```
-copy load.sh and all the images in the build/src directory. Then
-
-```
-$ ./load.sh
-```
 
 #### Windows
 * I haven't tested the code on Windows. But I am sure if the dependencies are met the code will work just fine.
 
-
 ### Run:
 
 @ Prof. Chen Please run the following Script file to take to make the whole process of running much easier.
+
+copy load.sh from main folder and all the images to the build/src directory. Then run the script inside the build/src folder
+
 ```
 $ ./load.sh
 ```
@@ -56,4 +53,4 @@ For details, I have mentioned the working of code as well as some other relevant
 
 ## References
 
-[111](http://en.wikipedia.org/wiki/Scale-invariant_feature_transform)
+[1](G. Grisetti, R. Kummerle, C. Stachniss and W. Burgard, "A Tutorial on Graph-Based SLAM," in IEEE Intelligent Transportation Systems Magazine, vol. 2, no. 4, pp. 31-43, winter 2010.)
