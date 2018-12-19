@@ -22,6 +22,11 @@ On Ubuntu, install dependencies by: `sudo apt install build-essential sed cmake 
 ```
 $ mkdir build && cd build && cmake .. && make
 ```
+copy load.sh and all the images in the build/src directory. Then
+
+```
+$ ./load.sh
+```
 
 #### Windows
 * I haven't tested the code on Windows. But I am sure if the dependencies are met the code will work just fine.
