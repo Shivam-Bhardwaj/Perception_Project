@@ -1,6 +1,6 @@
-# OpenPano
+# Perception Final Project
 
-![cmu0](results/CMU0-all.jpg)
+![1](src/1.jpg)
 
 ## Introduction
 
@@ -20,10 +20,9 @@ which is also the one used by [AutoStitch](http://matthewalunbrown.com/autostitc
 * cmake or make
 
 Eigen, CImg and FLANN are header-only, to simplify the compilation on different platforms.
-CImg and libjpeg are only used to read and write images, so you can easily get rid of them.
+
 
 On ArchLinux, install dependencies by: `sudo pacman -S gcc sed cmake make libjpeg eigen`
-
 On Ubuntu, install dependencies by: `sudo apt install build-essential sed cmake libjpeg-dev libeigen3-dev`
 
 ### Compile:
